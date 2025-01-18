@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rediet Mesfin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Rediet Mesfin</h1>
+        <div>
+            <img src="photo.jpg" id="photo" alt="A photo of you">
+        </div>
+    </div>
+    <div>
+        <h2>Favorite Music Artists</h2>
+        <ul>
+            <li>Avenoir</li>
+            <li>Daniel Caesar</li>
+            <li>Juice Wrld</li>
+            <li>Sade</li>
+            <li>James Arthur</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Favourite Films</h2>
+        <ol>
+            <li>Whiplash</li>
+            <li>Home Alone</li>
+            <li>La La Land</li>
+            <li>Get Out</li>
+            <li>Wrong Turn</li>
+        </ol>
+    </div>
+    <div>
+        <a href="https://www.meta.com/" target="_blank">My Profile</a>
+    </div>
+    <div>
+        <h2>Contact Me</h2>
+        <form action="/submit" method="post">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="feedback" style="display: block; margin-bottom: 5px;">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" style="width: 100%; padding: 8px; box-sizing: border-box;"></textarea>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="newsletter" style="display: block; margin-bottom: 5px;">Subscribe to newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="gender" style="display: block; margin-bottom: 5px;">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <div style="text-align: center;">
+                <input type="submit" value="Submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
