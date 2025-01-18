@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowerher Google Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container p {
+            margin: 0;
+            font-size: 12px;
+            color: #888;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Empowerher Google Form</h2>
+        <p>Please enter the following credentials:</p>
+        <form>
+            <label for="name">Name <span class="asterisk">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" value="Jane Doe">
+            <label for="email">Email <span class="asterisk">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" value="jane.doe@example.com">
+            <label for="password">Password <span class="asterisk">*</span></label>
+            <input type="password" id="password" name="password" placeholder="Create password" value="password123">
+            <p>Must Be At Least 8 Characters</p>
+            <button type="submit">Get Started</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
